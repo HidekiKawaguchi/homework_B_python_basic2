@@ -6,6 +6,7 @@ for r in range(9):
     print()
 
 
+
 """
 下記のような出力が得られる kuku_1.py を実装してください。
 
