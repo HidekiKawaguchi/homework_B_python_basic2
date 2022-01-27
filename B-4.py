@@ -37,7 +37,6 @@ def main():
     weather_information_avg = weather_information_temperature_total / weather_information_count
     print(weather_information_avg)
 
-
     # Q2. 大阪府のすべての駅名をカンマ区切りで出力してください( '梅田,大阪,堺' となればOK)
     osaka_station = [d.get('station') for d in weather_information if d['prefecture']=='大阪府']
     print(osaka_station)
